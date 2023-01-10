@@ -7,19 +7,24 @@ body{
 
 .first{
     display: flex;
-    flex-direction: column;
     background-color: #1f2937;
-    align-items: center;
-    gap: 80px;
+    justify-content: center;
     padding: 8px;
     padding-bottom: 40px;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
 .header{
     display: flex;
-    width: 800px;
+    
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     
 }
 
