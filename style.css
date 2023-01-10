@@ -94,12 +94,14 @@ body{
 .second{
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .second h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    text-align: center;
 }
 
 .second .container{
@@ -107,6 +109,39 @@ body{
     flex-direction: column;
     gap: 20px;
 
+}
+
+.cards{
+    display: flex;
+    gap: 12px;
+    
+}
+
+.card div{
+    width: 180px;
+    height: 180px;
+    background-color: gray;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 200px;
+}
+
+.card img{
+    width: 180px;
+    height: 180px;
+    border: solid #3882f6;
+    border-radius: 8px;
+}
+
+.card p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
 }
 
 
