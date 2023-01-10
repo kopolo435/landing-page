@@ -10,12 +10,74 @@ body{
     flex-direction: column;
     background-color: #1f2937;
     align-items: center;
+    gap: 80px;
+    padding: 8px;
+    padding-bottom: 40px;
 }
 
 .header{
     display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .top-content{
     display: flex;
+    gap: 40px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 400px;
+}
+
+.left-side h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+    margin: 0px;
+}
+
+.left-side button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 6px 26px;
+    border: none;
+    align-self: flex-start;
+}
+
+.right-side{
+    background-color: gray;
+    width: 450px;
+    height: 200px;
+}
+
+.left-side p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.placeholder{
+    width: 200px;
+    height: auto;
 }
